@@ -1,3 +1,8 @@
+:root {
+  --branding-color: #6bc7da;
+  --secondary-color: #67d5d2;
+}
+
 h1,
 h2 {
   color: white;
@@ -20,7 +25,7 @@ h3 {
 }
 
 .main-page {
-  background-color: #6bc7da;
+  background-color: var(--branding-color);
   padding: 220px 100px;
 }
 
