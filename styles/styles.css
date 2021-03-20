@@ -1,0 +1,26 @@
+h1,
+h2 {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 86px;
+}
+
+h2 {
+  font-size: 76px;
+}
+
+h3 {
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.main-page {
+  background-color: #6bc7da;
+  padding-left: 100px;
+  padding-top: 100px;
+}
