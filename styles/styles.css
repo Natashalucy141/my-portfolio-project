@@ -1,21 +1,27 @@
 :root {
   --branding-color: #6bc7da;
   --secondary-color: #67d5d2;
+  --main-title-font: "Playfair Display", serif;
 }
 
-h1,
-h2 {
-  color: white;
+.main-page h1 {
+  font-size: 86px;
   font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
+  color: white;
 }
 
-h1 {
-  font-size: 86px;
+.main-page h2 {
+  font-size: 76px;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  color: white;
 }
 
 h2 {
-  font-size: 76px;
+  font-size: 64px;
+  font-family: var(--main-title-font);
+  color: var(--branding-color);
 }
 
 h3 {
@@ -37,4 +43,28 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+}
+
+.btn-branded {
+  border: 1px solid var(--branding-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 18px 30px;
+  color: var(--secondary-color);
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  opacity: 70%;
+}
+
+.page-heading {
+  color: #6bc7da;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
+.img-border {
+  box-shadow: 10px 10px 30px 2px rgb(0 0 0 / 12%);
 }
