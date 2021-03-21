@@ -75,7 +75,51 @@ p {
 }
 
 @media (max-width: 576px) {
+  .main-page h1 {
+    text-align: center;
+    font-size: 76px;
+  }
+  .main-page h2 {
+    text-align: center;
+    font-size: 66px;
+  }
+  .main-page h3 {
+    text-align: center;
+  }
+
   body {
     text-align: center;
   }
 }
+/*
+
+@media (max-width: 375px) {
+  .main-page h1 {
+    text-align: center;
+    font-size: 70px;
+  }
+
+  .main-page h2 {
+    display: none;
+  }
+
+  .main-page h3 {
+    font-size: 24px;
+  }
+}
+
+
+
+@media (max-width: 576px) {
+  .main-page h1 {
+    text-align: center;
+    font-size: 70px;
+  }
+  .main-page h2 {
+    font-size: 50px;
+  }
+  body {
+    text-align: center;
+  }
+}
+*/
