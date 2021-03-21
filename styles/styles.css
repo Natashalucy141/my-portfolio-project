@@ -53,6 +53,11 @@ h3 {
   color: var(--secondary-color);
 }
 
+.btn-branded:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
+
 p {
   line-height: 1.5;
   font-size: 16px;
@@ -67,4 +72,10 @@ p {
 }
 .img-border {
   box-shadow: 10px 10px 30px 2px rgb(0 0 0 / 12%);
+}
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
 }
