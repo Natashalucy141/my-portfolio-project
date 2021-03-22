@@ -18,6 +18,10 @@
   color: white;
 }
 
+.index-features-page {
+  padding: 40px;
+}
+
 h2 {
   font-size: 64px;
   font-family: var(--main-title-font);
