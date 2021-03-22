@@ -71,7 +71,7 @@ p {
   font-weight: lighter;
 }
 .img-border {
-  box-shadow: 10px 10px 30px 2px rgb(0 0 0 / 12%);
+  border: 5px solid #67d5d17e;
 }
 
 @media (max-width: 576px) {
