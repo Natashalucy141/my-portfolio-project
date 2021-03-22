@@ -75,15 +75,15 @@ p {
 }
 
 @media (max-width: 576px) {
-  .main-page h1 {
+  .my-name-heading {
     text-align: center;
     font-size: 76px;
   }
-  .main-page h2 {
+  .portfolio-heading {
     text-align: center;
     font-size: 66px;
   }
-  .main-page h3 {
+  .sub-heading {
     text-align: center;
   }
 
