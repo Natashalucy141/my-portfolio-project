@@ -37,7 +37,7 @@ h3 {
 
 .main-page {
   background-color: var(--branding-color);
-  padding: 220px 100px;
+  height: 690px;
 }
 
 .btn-dark {
