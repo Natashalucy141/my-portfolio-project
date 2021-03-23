@@ -5,6 +5,10 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.navbar-color {
+  background: #b5e3ed;
+}
+
 .main-page h1 {
   font-size: 86px;
   font-family: "Poppins", sans-serif;
