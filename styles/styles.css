@@ -9,6 +9,14 @@
   background: #b5e3ed;
 }
 
+.logo {
+  color: green;
+}
+
+.lemon {
+  color: yellow;
+}
+
 .main-page h1 {
   font-size: 86px;
   font-family: "Poppins", sans-serif;
