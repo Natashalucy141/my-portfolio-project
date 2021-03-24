@@ -98,6 +98,24 @@ p {
   border-radius: 20px;
 }
 
+.about-section h1 {
+  font-size: 64px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  color: #8b8990;
+}
+
+.about-section h3 {
+  font-size: 28px;
+  color: #000000;
+}
+
+.name-color {
+  color: var(--branding-color);
+}
+
 @media (max-width: 576px) {
   .main-page h1 {
     font-size: 66px;
