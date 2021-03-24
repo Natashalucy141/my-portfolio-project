@@ -116,6 +116,12 @@ p {
   color: var(--branding-color);
 }
 
+.technology-section h3 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--branding-color);
+}
+
 @media (max-width: 576px) {
   .main-page h1 {
     font-size: 66px;
