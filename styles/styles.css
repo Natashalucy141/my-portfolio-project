@@ -13,10 +13,6 @@
   color: green;
 }
 
-.lemon {
-  color: yellow;
-}
-
 .main-page h1 {
   font-size: 86px;
   font-family: "Poppins", sans-serif;
@@ -92,6 +88,14 @@ p {
 }
 .img-border {
   border: 5px solid #67d5d17e;
+}
+
+/* About page */
+
+.headshot-image {
+  width: 360px;
+
+  border-radius: 20px;
 }
 
 @media (max-width: 576px) {
