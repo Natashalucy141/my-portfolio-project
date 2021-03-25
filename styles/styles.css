@@ -122,6 +122,20 @@ p {
   color: var(--branding-color);
 }
 
+.btn-view-projects {
+  background-color: var(--branding-color);
+  color: white;
+  text-decoration: none;
+  padding: 18px 30px;
+  border-radius: 30px;
+}
+
+.btn-view-projects:hover {
+  background-color: white;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+}
+
 @media (max-width: 576px) {
   .main-page h1 {
     font-size: 66px;
