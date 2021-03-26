@@ -90,12 +90,16 @@ p {
   border: 5px solid #67d5d17e;
 }
 
-/* About page */
+/* ABOUT PAGE */
 
 .headshot-image {
   width: 360px;
 
   border-radius: 20px;
+}
+
+.about-section {
+  padding: 160px 20px;
 }
 
 .about-section h1 {
@@ -115,6 +119,8 @@ p {
 .name-color {
   color: var(--branding-color);
 }
+
+/* TECHNOLOGY SECTION*/
 
 .technology-section h3 {
   font-size: 30px;
