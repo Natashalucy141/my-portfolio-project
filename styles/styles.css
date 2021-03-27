@@ -125,6 +125,15 @@ p {
 
 /* TECHNOLOGY SECTION*/
 
+.technology-section {
+  color: var(--branding-color);
+  background-color: #f7f8fc;
+}
+
+.icon {
+  width: 17px;
+}
+
 .technology-section h3 {
   font-size: 30px;
   text-align: center;
