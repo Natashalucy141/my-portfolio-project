@@ -154,6 +154,17 @@ p {
   color: var(--branding-color);
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
 @media (max-width: 576px) {
   .main-page h1 {
     font-size: 66px;
