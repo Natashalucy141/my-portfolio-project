@@ -101,6 +101,7 @@ p {
 .headshot-image {
   width: 360px;
   border-radius: 20px;
+  margin: 0;
 }
 
 .about-section {
