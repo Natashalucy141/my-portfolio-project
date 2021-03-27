@@ -153,6 +153,9 @@ p {
   border: 1px solid var(--branding-color);
   color: var(--branding-color);
 }
+footer {
+  margin: 60px 0;
+}
 
 footer .email-link {
   text-decoration: none;
