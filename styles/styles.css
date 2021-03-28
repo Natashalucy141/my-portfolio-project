@@ -147,6 +147,7 @@ p {
   text-align: center;
   padding: 50px;
   background-color: var(--section-color);
+  border-radius: 10px;
 }
 
 .technology-title {
