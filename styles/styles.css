@@ -133,6 +133,7 @@ p {
 /* CERTIFICATE SECTION*/
 .certificate-title {
   font-size: 24px;
+  color: black;
 }
 
 .certificate-section {
@@ -146,7 +147,8 @@ p {
   font-weight: bold;
   text-align: center;
   padding: 50px;
-  background-color: var(--section-color);
+  border: 5px solid #67d5d17e;
+
   border-radius: 10px;
 }
 
