@@ -100,8 +100,8 @@ p {
 
 .headshot-image {
   width: 360px;
-  border-radius: 20px;
-  margin: 0;
+  border-radius: 30px;
+  padding: 20px;
 }
 
 .about-section {
@@ -128,6 +128,10 @@ p {
 
 .name-color {
   color: var(--branding-color);
+}
+/* CERTIFICATE SECTION*/
+.certificate-title {
+  font-size: 24px;
 }
 
 /* TECHNOLOGY SECTION*/
