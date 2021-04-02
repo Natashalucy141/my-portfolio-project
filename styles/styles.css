@@ -40,6 +40,11 @@
   padding: 40px;
 }
 
+.project-img:hover {
+  filter: grayscale(100%);
+  opacity: 0.2;
+}
+
 h2 {
   font-size: 48px;
   font-family: var(--main-title-font);
