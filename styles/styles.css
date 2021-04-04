@@ -231,6 +231,11 @@ p {
   width: 100%;
 }
 
+.project-page-title {
+  font-family: var(--main-title-font);
+  color: var(--branding-color);
+}
+
 footer {
   margin: 60px 0;
 }
