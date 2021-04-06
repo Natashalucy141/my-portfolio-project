@@ -284,6 +284,42 @@ p {
   color: purple;
 }
 
+/* Contact page*/
+.email-border {
+  padding-bottom: 5px;
+  width: 300px;
+  padding-left: 25px;
+  background-color: white;
+  border-radius: 40px;
+  border: 1px var(--branding-color) solid;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  color: rgb(75, 72, 72);
+}
+
+.searchButton {
+  color: grey;
+
+  top: 40px;
+  right: 20px;
+  background-color: var(--branding-color);
+  color: white;
+  padding: 0px 10px;
+  border-radius: 40px;
+  border: 1px var(--branding-color) solid;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.inputTextBar {
+  top: 40px;
+  right: 20px;
+  width: 300px;
+  background-color: white;
+  border-radius: 40px;
+  border: 1px var(--branding-color) solid;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
 footer {
   margin: 60px 0;
 }
