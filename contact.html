@@ -67,35 +67,82 @@
 
     <div class="container about-section">
       <h1 class="project-page-title mb-5">Lets get in touch!</h1>
-      <h3>Email</h3>
-      <a href="mailto:natashalucyaldridge@gmail.com"
-        ><p class="email-border">natashalucyaldridge@gmail.com</p></a
-      >
-      <form id="search-form">
-        <input
-          type="text"
-          placeholder="   natashalucyaldridge@gmail.com"
-          class="inputTextBar"
-          autocomplete="off"
-          autofocus="off"
-          id="search-bar-input"
-          onfocus="this.value=''"
-        />
-        <input
-          type="submit"
-          value="Contact Me"
-          action="mailto:natashalucyaldridge@gmail.com"
-          class="searchButton"
-        />
-      </form>
-      <h3>LinkedIn</h3>
-      <p>
-        <a
-          href="https://www.linkedin.com/in/natasha-aldridge-68a65ab7/"
-          target="_blank"
-          >@natasha</a
-        >
-      </p>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Email</h3>
+          <div class="d-flex">
+            <p class="email-border">
+              <i class="fas fa-envelope"></i> natashalucyaldridge@gmail.com
+            </p>
+            <div class="random">
+              <a
+                href="mailto:natashalucyaldridge@gmail.com"
+                class="searchButton d-none d-lg-flex"
+                >Contact me
+              </a>
+            </div>
+          </div>
+
+          <h3>LinkedIn</h3>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/natasha-aldridge-68a65ab7/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in fa-lg"></i>
+            </a>
+          </p>
+
+          <h3>Instagram</h3>
+          <p>
+            <a href="#" target="_blank"
+              ><i class="fab fa-instagram fa-lg"></i
+            ></a>
+          </p>
+        </div>
+        <div class="col-md-6">
+          <form
+            id="fs-frm"
+            name="simple-contact-form"
+            accept-charset="utf-8"
+            action="https://formspree.io/f/{form_id}"
+            method="post"
+          >
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                name="name"
+                id="full-name"
+                placeholder="First and Last"
+                required=""
+              />
+              <label for="email-address">Email Address</label>
+              <input
+                type="email"
+                name="_replyto"
+                id="email-address"
+                placeholder="example@example.com"
+                required=""
+              />
+              <label for="message">Message</label>
+              <textarea
+                rows="5"
+                name="message"
+                id="message"
+                required=""
+              ></textarea>
+              <input
+                type="hidden"
+                name="_subject"
+                id="email-subject"
+                value="Contact Form Submission"
+              />
+            </fieldset>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+
       <footer>
         <div
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
@@ -106,28 +153,13 @@
           </div>
           <div class="mt-4">
             <a
-              class="btn-view-projects"
+              class="btn-view-projects d-none d-lg-flex"
               href="mailto:natashalucyaldridge@gmail.com"
               >Contact Me 📩
             </a>
           </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <a href="mailto:natashalucyaldridge@gmail.com" class="email-link"
-            >natashalucyaldridge@gmail.com</a
-          >
-        </div>
-        <div class="social-links text-center">
-          <a
-            href="https://www.linkedin.com/in/natasha-aldridge-68a65ab7/"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/Natashalucy141" target="_blank"
-            ><i class="fab fa-github"></i
-          ></a>
-        </div>
+
         <p class="text-center mt-5">
           This website was coded by Natasha Aldridge and is
           <a href="https://github.com/Natashalucy141" target="_blank"
