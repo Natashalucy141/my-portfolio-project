@@ -176,6 +176,10 @@ p {
   transform: scale(1.07);
 }
 
+.word-highlight:hover {
+  background-color: #6bc7da;
+}
+
 /* TECHNOLOGY SECTION*/
 
 .technology-section {
