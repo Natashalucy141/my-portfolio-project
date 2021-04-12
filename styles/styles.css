@@ -225,6 +225,17 @@ p {
 .image {
   position: relative;
 }
+.btn-launch-project {
+  color: white;
+  font-size: 14px;
+  padding: 14px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-launch-project a {
+  color: white;
+}
 
 .project-img {
   display: block;
@@ -449,7 +460,7 @@ footer .social-links a {
   border: 1px solid var(--branding-color);
   margin: 0 5px;
   padding: 10px 12px;
-  font-size: 18px;
+  font-size: 24px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
@@ -471,6 +482,16 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 
+.footer-built-by-info {
+  font-size: 12px;
+}
+
+@media (max-width: 1021px) {
+  .btn-view-projects {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .main-page h1 {
     font-size: 66px;
@@ -484,6 +505,10 @@ footer .email-link:hover {
   }
   .hidden-text {
     display: none;
+  }
+
+  #work-title {
+    font-size: 31px;
   }
 }
 
